@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class CustomerDao {
-    // @autowired to inject sessionFactory object
+    // @Autowired to inject sessionFactory object
     @Autowired
     private SessionFactory sessionFactory;
 
