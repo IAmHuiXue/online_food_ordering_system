@@ -12,6 +12,12 @@ import javax.sql.DataSource;
 
 // Spring Security provides security services for Java EE-based enterprise software applications.
 // There is a particular emphasis on Spring based applications.
+
+// Authentication
+// The process of checking credentials and making sure the current logged user is who they claim to be.
+// Authorization
+// The process of deciding whether a current logged user is allowed to perform an action within your application.
+
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
